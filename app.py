@@ -28,8 +28,7 @@ def reply():
         response.message("Welcome to Omani Coder WhatsApp chatbot🤖")
         response.message("\n 1. Services: \n 2. Prices: \n 3. contact numbers:\n 4. sign in:")
         users.insert_one({"number": number, "status": "main", "messages": []})
-        return str(response)
-
+        
         return str(response)
     elif user["status"] == "main":
         try:
